@@ -45,7 +45,7 @@ imports:
   subpackages:
   - gogen
 - name: github.com/DataDog/datadog-agent
-  version: 9b3444c6fdcbe9a122a0bdacdd1476a78d326a97
+  version: 0cb724e4ca274641a3c55e653a530d3d0de7bf83
   subpackages:
   - cmd/agent/api/response
   - pkg/api/security
@@ -407,3 +407,4 @@ testImports:
   version: be8372ae8ec5c6daaed3cc28ebf73c54b737c240
   subpackages:
   - assert
+- name: github.com/kubernetes-incubator/custom-metrics-apiserver
